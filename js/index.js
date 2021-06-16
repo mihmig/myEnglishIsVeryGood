@@ -1,0 +1,184 @@
+var answers = {
+    'm1vAtA' : {
+        'm1vAtAq01': '6',
+        'm1vAtAq02': '4',
+        'm1vAtAq03': '2',
+        'm1vAtAq04': '10',
+        'm1vAtAq05': '8',
+        'm1vAtAq06': '9',
+        'm1vAtAq07': '7',
+        'm1vAtAq08': '5'
+    },
+    'm1vAtB' : {
+        'm1vAtBq01': '5',
+        'm1vAtBq02': '1',
+        'm1vAtBq03': '7',
+        'm1vAtBq04': '4',
+        'm1vAtBq05': '9',
+        'm1vAtBq06': '6',
+        'm1vAtBq07': '8'
+    },
+    'm1vAtC' : {
+        'm1vAtCq01': '2',
+        'm1vAtCq02': '2',
+        'm1vAtCq03': '1',
+        'm1vAtCq04': '2',
+        'm1vAtCq05': '2',
+        'm1vAtCq06': '2',
+        'm1vAtCq07': '1',
+        'm1vAtCq08': '2',
+        'm1vAtCq09': '1',
+        'm1vAtCq10': '1',
+    },
+    'm1vAtD': {
+        'm1vAtDq01': 'rarely left',
+        'm1vAtDq02': 'did you take',
+        'm1vAtDq03': 'was watering',
+        'm1vAtDq04': 'didn\'t meet',
+        'm1vAtDq05': 'was listening'
+    },
+    'm1vAtE': {
+        'm1vAtEq01': 'the most sociable',
+        'm1vAtEq02': 'more sensitive',
+        'm1vAtEq03': 'the most patient',
+        'm1vAtEq04': 'the least',
+        'm1vAtEq05': 'older'
+    },
+    'm1vAtF': {
+        'm1vAtFq01': '5',
+        'm1vAtFq02': '3',
+        'm1vAtFq03': '2',
+        'm1vAtFq04': '1',
+        'm1vAtFq05': '4'
+    },
+    'm1vAtG': {
+        'm1vAtGq01': '1',
+        'm1vAtGq02': '2',
+        'm1vAtGq03': '1',
+        'm1vAtGq04': '1',
+        'm1vAtGq05': '2'
+    },
+    'm1vAtH': {
+        'm1vAtHq01': '3',
+        'm1vAtHq02': '6',
+        'm1vAtHq03': '1',
+        'm1vAtHq04': '5',
+        'm1vAtHq05': '4'
+    },
+    'm1vBtA' : {
+        'm1vBtAq01': '2',
+        'm1vBtAq02': '8',
+        'm1vBtAq03': '3',
+        'm1vBtAq04': '6',
+        'm1vBtAq05': '4',
+        'm1vBtAq06': '5',
+        'm1vBtAq07': '9',
+        'm1vBtAq08': '7'
+    },
+    'm1vBtB' : {
+        'm1vBtBq01': '6',
+        'm1vBtBq02': '7',
+        'm1vBtBq03': '10',
+        'm1vBtBq04': '4',
+        'm1vBtBq05': '8',
+        'm1vBtBq06': '2',
+        'm1vBtBq07': '5'
+    },
+    'm1vBtC' : {
+        'm1vBtCq01': '1',
+        'm1vBtCq02': '1',
+        'm1vBtCq03': '2',
+        'm1vBtCq04': '1',
+        'm1vBtCq05': '2',
+        'm1vBtCq06': '2',
+        'm1vBtCq07': '2',
+        'm1vBtCq08': '1',
+        'm1vBtCq09': '2',
+        'm1vBtCq10': '2',
+    },
+    'm1vBtD': {
+        'm1vBtDq01': 'didn\'t meet',
+        'm1vBtDq02': 'were you doing',
+        'm1vBtDq03': 'was listening',
+        'm1vBtDq04': 'left',
+        'm1vBtDq05': 'did you start'
+    },
+    'm1vBtE': {
+        'm1vBtEq01': 'the most selfish',
+        'm1vBtEq02': 'duller',
+        'm1vBtEq03': 'the least',
+        'm1vBtEq04': 'more',
+        'm1vBtEq05': 'better'
+    },
+    'm1vBtF': {
+        'm1vBtFq01': '4',
+        'm1vBtFq02': '5',
+        'm1vBtFq03': '1',
+        'm1vBtFq04': '2',
+        'm1vBtFq05': '3'
+    },
+    'm1vBtG': {
+        'm1vBtGq01': '1',
+        'm1vBtGq02': '2',
+        'm1vBtGq03': '1',
+        'm1vBtGq04': '2',
+        'm1vBtGq05': '1'
+    },
+    'm1vBtH': {
+        'm1vBtHq01': '6',
+        'm1vBtHq02': '4',
+        'm1vBtHq03': '5',
+        'm1vBtHq04': '1',
+        'm1vBtHq05': '3'
+    }
+
+}
+function getAnswers(testId) {
+    return answers[testId];
+}
+
+function init() {
+    //document.getElementById("m1vA4").style.display = 'block';
+}
+function goHome() {
+    hideAll();
+    document.getElementById('homeScreen').style.display = 'block';
+}
+function hideAll() {
+    var els = document.getElementsByClassName('screen');
+    Array.prototype.forEach.call(els, function(el) {
+        el.style.display = 'none';
+    });
+}
+function test(testId) {
+    hideAll();
+    document.getElementById(testId).style.display = 'block';
+
+    var els = document.getElementsByTagName('select');
+    Array.prototype.forEach.call(els, function(el) {
+        el.style.backgroundColor = '';
+    });
+
+}
+
+function check(testId) {
+    //
+    var correctAnswersCount = 0;
+    var answers = getAnswers(testId);
+    var questionsCount = 0;
+    for (var key in answers) {
+        questionsCount++;
+        if (document.getElementById(key).value == answers[key]) {
+                correctAnswersCount++;
+        } else {
+            document.getElementById(key).style.backgroundColor = 'lightpink';
+        }
+    }
+
+
+    if (correctAnswersCount == questionsCount) {
+        alert("Всё верно!");
+    } else {
+        alert("Тест не пройден, правильных ответов: " + correctAnswersCount);
+    }
+}

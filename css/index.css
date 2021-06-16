@@ -1,0 +1,23 @@
+body,html {
+	font-family: Arial, Verdana, Helvetica, Sans-Serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+#homeScreen {
+	padding-left:3vw;
+}
+.qbox {
+	padding: 1vw;
+	display: none;
+}
+
+#testSelector {
+	padding: 1vw;
+	color: darkslategray;
+}
+li {
+	margin: 1vw;
+}
