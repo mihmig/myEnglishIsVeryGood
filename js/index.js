@@ -34,7 +34,7 @@ var answers = {
         'm1vAtDq01': 'rarely left',
         'm1vAtDq02': 'did you take',
         'm1vAtDq03': 'was watering',
-        'm1vAtDq04': 'didn\'t meet',
+        'm1vAtDq04': 'didnt meet',
         'm1vAtDq05': 'was listening'
     },
     'm1vAtE': {
@@ -97,7 +97,7 @@ var answers = {
         'm1vBtCq10': '2',
     },
     'm1vBtD': {
-        'm1vBtDq01': 'didn\'t meet',
+        'm1vBtDq01': 'didnt meet',
         'm1vBtDq02': 'were you doing',
         'm1vBtDq03': 'was listening',
         'm1vBtDq04': 'left',
@@ -130,6 +130,43 @@ var answers = {
         'm1vBtHq03': '5',
         'm1vBtHq04': '1',
         'm1vBtHq05': '3'
+    },'m2vAtA' : {
+        'm2vAtAq01': '2',
+        'm2vAtAq02': '2',
+        'm2vAtAq03': '1',
+        'm2vAtAq04': '2',
+        'm2vAtAq05': '1',
+        'm2vAtAq06': '1',
+        'm2vAtAq07': '2',
+        'm2vAtAq08': '1',
+        'm2vAtAq09': '2',
+        'm2vAtAq10': '1'
+    },
+    'm2vAtB' : {
+        'm2vAtBq01': '3',
+        'm2vAtBq02': '5',
+        'm2vAtBq03': '7',
+        'm2vAtBq04': '4',
+        'm2vAtBq05': '1'
+    },
+    'm2vAtC' : {
+        'm2vAtCq01': 'haven\'t bought',
+        'm2vAtCq02': 'have you ever eaten',
+        'm2vAtCq03': 'has gone',
+        'm2vAtCq04': 'have you been cleaning',
+        'm2vAtCq05': 'has been working',
+    },
+    'm2vBtD': {
+        'm2vAtDq01': '1',
+        'm2vAtDq02': '2',
+        'm2vAtDq03': '2',
+        'm2vAtDq04': '2',
+        'm2vAtDq05': '1',
+        'm2vAtDq06': '1',
+        'm2vAtDq07': '1',
+        'm2vAtDq08': '2',
+        'm2vAtDq09': '1',
+        'm2vAtDq10': '1'
     }
 
 }
@@ -152,23 +189,35 @@ function hideAll() {
 }
 function test(testId) {
     hideAll();
-    document.getElementById(testId).style.display = 'block';
+    if (document.getElementById(testId)) {
+        document.getElementById(testId).style.display = 'block';
 
-    var els = document.getElementsByTagName('select');
-    Array.prototype.forEach.call(els, function(el) {
-        el.style.backgroundColor = '';
-    });
-
+        var els = document.getElementsByTagName('select');
+        Array.prototype.forEach.call(els, function (el) {
+            el.style.backgroundColor = '';
+        });
+    } else {
+        loadAndStartTest(testId);
+    }
+}
+function loadAndStartTest(testId) {
+    fetch('tests/'+testId+'.html')
+        .then(resp => resp.text())
+        .then(text => {
+            let testDiv = document.createElement('div');
+            testDiv.innerHTML = text;
+            document.body.append(testDiv.firstChild);
+            test(testId);
+        });
 }
 
 function check(testId) {
-    //
     var correctAnswersCount = 0;
     var answers = getAnswers(testId);
     var questionsCount = 0;
     for (var key in answers) {
         questionsCount++;
-        if (document.getElementById(key).value == answers[key]) {
+        if (normalizeText(document.getElementById(key).value) == answers[key]) {
                 correctAnswersCount++;
         } else {
             document.getElementById(key).style.backgroundColor = 'lightpink';
@@ -181,4 +230,8 @@ function check(testId) {
     } else {
         alert("Тест не пройден, правильных ответов: " + correctAnswersCount);
     }
+}
+
+function normalizeText(text) {
+    return text.trim().toLowerCase().replace("'",'');
 }
