@@ -174,6 +174,18 @@ var answers = {
         'm2vAtEq03': '5',
         'm2vAtEq04': '3',
         'm2vAtEq05': '4'
+    },
+    'm2vAtF': {
+        'm2vAtFq01': '2',
+        'm2vAtFq02': '3',
+        'm2vAtFq03': '2',
+        'm2vAtFq04': '1',
+        'm2vAtFq05': '1',
+        'm2vAtFq06': '2',
+        'm2vAtFq07': '3',
+        'm2vAtFq08': '3',
+        'm2vAtFq09': '2',
+        'm2vAtFq10': '1'
     }
 
 }
