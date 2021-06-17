@@ -251,12 +251,22 @@ function check(testId) {
 
 
     if (correctAnswersCount === questionsCount) {
-        alert("Congratulations! All right!");
+        // alert("Congratulations! All right!");
+        document.getElementById("completedTestId").innerText = testId;
+        document.getElementById("testPassedMessage").style.visibility="visible";
     } else {
-        alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
+        // alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
+        document.getElementById("failedTestResult").innerText = "Test " + testId + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
+        document.getElementById("testFailedMessage").style.visibility="visible";
     }
 }
 
 function normalizeText(text) {
     return text.trim().toLowerCase().replace("'",'');
+}
+
+function hideMe(element) {
+    if(element) {
+        element.style.visibility = "hidden";
+    }
 }

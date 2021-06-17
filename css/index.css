@@ -1,5 +1,5 @@
 body,html {
-	font-family: Arial, Verdana, Helvetica, Sans-Serif;
+	/*font-family: Arial, Verdana, Helvetica, Sans-Serif, serif;*/
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -20,4 +20,29 @@ body,html {
 }
 li {
 	margin: 1vw;
+}
+
+.messageBoundingBox {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+	visibility: hidden;
+}
+.centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#testPassedMessage {
+	background-color: lightgreen;
+}
+#testFailedMessage {
+	background-color: lightpink;
 }
