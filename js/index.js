@@ -167,6 +167,13 @@ var answers = {
         'm2vAtDq08': '2',
         'm2vAtDq09': '1',
         'm2vAtDq10': '1'
+    },
+    'm2vAtE': {
+        'm2vAtEq01': '2',
+        'm2vAtEq02': '1',
+        'm2vAtEq03': '5',
+        'm2vAtEq04': '3',
+        'm2vAtEq05': '4'
     }
 
 }
