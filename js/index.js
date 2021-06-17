@@ -186,8 +186,14 @@ var answers = {
         'm2vAtFq08': '3',
         'm2vAtFq09': '2',
         'm2vAtFq10': '1'
+    },
+    'm2vAtH': {
+        'm2vAtHq01': '4',
+        'm2vAtHq02': '2',
+        'm2vAtHq03': '6',
+        'm2vAtHq04': '1',
+        'm2vAtHq05': '5'
     }
-
 }
 function getAnswers(testId) {
     return answers[testId];
@@ -236,7 +242,7 @@ function check(testId) {
     var questionsCount = 0;
     for (var key in answers) {
         questionsCount++;
-        if (normalizeText(document.getElementById(key).value) == answers[key]) {
+        if (normalizeText(document.getElementById(key).value) === answers[key]) {
                 correctAnswersCount++;
         } else {
             document.getElementById(key).style.backgroundColor = 'lightpink';
@@ -244,7 +250,7 @@ function check(testId) {
     }
 
 
-    if (correctAnswersCount == questionsCount) {
+    if (correctAnswersCount === questionsCount) {
         alert("Congratulations! All right!");
     } else {
         alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
