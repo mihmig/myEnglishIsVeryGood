@@ -7,12 +7,12 @@ function setCookie (name, value, expires, path, domain, secure) {
 }
 
 function getCookie(name) {
-	if (!document.cookie) return false;
+	if (!document.cookie) return undefined;
 	const cookie = " " + document.cookie;
 	const search = " " + name + "=";
 
 	let offset = cookie.indexOf(search);
-	if ( offset === -1 ) return false;
+	if ( offset === -1 ) return undefined;
 
 	offset += search.length;
 	let end = cookie.indexOf(";", offset)

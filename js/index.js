@@ -200,7 +200,18 @@ function getAnswers(testId) {
 }
 
 function init() {
-    //document.getElementById("m1vA4").style.display = 'block';
+    for (testId in answers) {
+        let status = getCookie(testId);
+        let button = document.getElementById(testId+"button");
+        if (!button) continue;
+        if (status) {
+            if (status == "passed") {
+                button.style.backgroundColor = "lightgreen";
+            } else {
+                button.style.backgroundColor = "lightpink";
+            }
+        }
+    }
 }
 function goHome() {
     hideAll();
@@ -254,10 +265,14 @@ function check(testId) {
         // alert("Congratulations! All right!");
         document.getElementById("completedTestId").innerText = testId;
         document.getElementById("testPassedMessage").style.visibility="visible";
+        document.getElementById(testId+"button").style.backgroundColor = "lightgreen";
+        setCookie(testId, "passed");
     } else {
         // alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
         document.getElementById("failedTestResult").innerText = "Test " + testId + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
         document.getElementById("testFailedMessage").style.visibility="visible";
+        document.getElementById(testId+"button").style.backgroundColor = "lightpink";
+        setCookie(testId, "failed");
     }
 }
 
