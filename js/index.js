@@ -233,9 +233,9 @@ function check(testId) {
 
 
     if (correctAnswersCount == questionsCount) {
-        alert("Всё верно!");
+        alert("Congratulations! All right!");
     } else {
-        alert("Тест не пройден, правильных ответов: " + correctAnswersCount);
+        alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
     }
 }
 
