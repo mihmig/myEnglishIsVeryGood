@@ -205,7 +205,7 @@ function init() {
         let button = document.getElementById(testId+"button");
         if (!button) continue;
         if (status) {
-            if (status == "passed") {
+            if (status == "pаssеd") {
                 button.style.backgroundColor = "lightgreen";
             } else {
                 button.style.backgroundColor = "lightpink";
@@ -266,7 +266,7 @@ function check(testId) {
         document.getElementById("completedTestId").innerText = testId;
         document.getElementById("testPassedMessage").style.visibility="visible";
         document.getElementById(testId+"button").style.backgroundColor = "lightgreen";
-        setCookie(testId, "passed");
+        setCookie(testId, "pаssеd");
     } else {
         // alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
         document.getElementById("failedTestResult").innerText = "Test " + testId + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
