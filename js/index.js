@@ -150,13 +150,13 @@ var answers = {
         'm2vAtBq05': '1'
     },
     'm2vAtC' : {
-        'm2vAtCq01': 'haven\'t bought',
-        'm2vAtCq02': 'have you ever eaten',
+        'm2vAtCq01': 'havent bought',
+        'm2vAtCq02': 'have you been writing',
         'm2vAtCq03': 'has gone',
-        'm2vAtCq04': 'have you been cleaning',
+        'm2vAtCq04': 'have you ever eaten',
         'm2vAtCq05': 'has been working',
     },
-    'm2vBtD': {
+    'm2vAtD': {
         'm2vAtDq01': '1',
         'm2vAtDq02': '2',
         'm2vAtDq03': '2',
@@ -193,6 +193,70 @@ var answers = {
         'm2vAtHq03': '6',
         'm2vAtHq04': '1',
         'm2vAtHq05': '5'
+    },
+    'm2vBtA' : {
+        'm2vBtAq01': '1',
+        'm2vBtAq02': '1',
+        'm2vBtAq03': '2',
+        'm2vBtAq04': '2',
+        'm2vBtAq05': '2',
+        'm2vBtAq06': '1',
+        'm2vBtAq07': '1',
+        'm2vBtAq08': '2',
+        'm2vBtAq09': '2',
+        'm2vBtAq10': '2'
+    },
+    'm2vBtB' : {
+        'm2vBtBq01': '3',
+        'm2vBtBq02': '7',
+        'm2vBtBq03': '1',
+        'm2vBtBq04': '2',
+        'm2vBtBq05': '6'
+    },
+    'm2vBtC' : {
+        'm2vBtCq01': 'has been working',
+        'm2vBtCq02': 'have you ever eaten',
+        'm2vBtCq03': 'has gone',
+        'm2vBtCq04': 'have you been cleaning',
+        'm2vBtCq05': 'havent bought',
+    },
+    'm2vBtD': {
+        'm2vAtDq01': '1',
+        'm2vAtDq02': '1',
+        'm2vAtDq03': '1',
+        'm2vAtDq04': '2',
+        'm2vAtDq05': '1',
+        'm2vAtDq06': '2',
+        'm2vAtDq07': '1',
+        'm2vAtDq08': '2',
+        'm2vAtDq09': '2',
+        'm2vAtDq10': '1'
+    },
+    'm2vBtE': {
+        'm2vAtEq01': '2',
+        'm2vAtEq02': '1',
+        'm2vAtEq03': '5',
+        'm2vAtEq04': '3',
+        'm2vAtEq05': '4'
+    },
+    'm2vBtF': {
+        'm2vBtFq01': '2',
+        'm2vBtFq02': '3',
+        'm2vBtFq03': '2',
+        'm2vBtFq04': '1',
+        'm2vBtFq05': '1',
+        'm2vBtFq06': '2',
+        'm2vBtFq07': '3',
+        'm2vBtFq08': '3',
+        'm2vBtFq09': '2',
+        'm2vBtFq10': '1'
+    },
+    'm2vBtH': {
+        'm2vBtHq01': '4',
+        'm2vBtHq02': '2',
+        'm2vBtHq03': '6',
+        'm2vBtHq04': '1',
+        'm2vBtHq05': '5'
     }
 }
 function getAnswers(testId) {
