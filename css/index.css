@@ -52,3 +52,8 @@ li {
 #testFailedMessage {
 	background-color: lightpink;
 }
+
+.testBottomButtons {
+	margin: auto;
+	text-align: center;
+}
