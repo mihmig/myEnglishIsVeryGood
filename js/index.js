@@ -313,6 +313,9 @@ function init() {
         }
     }
 }
+function selectCource(courceName) {
+    location.href = courceName + ".html";
+}
 function goHome() {
     pauseAudio();
     hideAll();
