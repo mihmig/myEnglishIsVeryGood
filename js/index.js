@@ -257,7 +257,43 @@ var answers = {
         'm2vBtHq03': '6',
         'm2vBtHq04': '1',
         'm2vBtHq05': '5'
+    },
+    'm3vAtA' : {
+        'm3vAtAq01': '2',
+        'm3vAtAq02': '1',
+        'm3vAtAq03': '1',
+        'm3vAtAq04': '2',
+        'm3vAtAq05': '1',
+        'm3vAtAq06': '2',
+        'm3vAtAq07': '2',
+        'm3vAtAq08': '1'
+    },
+    'm3vAtB' : {
+        'm3vAtBq01': '6',
+        'm3vAtBq02': '9',
+        'm3vAtBq03': '12',
+        'm3vAtBq04': '2',
+        'm3vAtBq05': '7',
+        'm3vAtBq06': '5',
+        'm3vAtBq07': '1',
+        'm3vAtBq08': '8',
+        'm3vAtBq09': '4'
+    },
+    'm3vAtC' : {
+        'm3vAtCq01': 'had been studying',
+        'm3vAtCq02': 'hadnt finished',
+        'm3vAtCq03': 'had you been studying',
+        'm3vAtCq04': 'had lived',
+        'm3vAtCq05': 'had she finished',
+    },
+    'm3vAtD' : {
+        'm3vAtDq01': 'went',
+        'm3vAtDq02': 'had performed',
+        'm3vAtDq03': 'had you been waiting',
+        'm3vAtDq04': 'did James graduate',
+        'm3vAtDq05': 'didnt win',
     }
+
 }
 function getAnswers(testId) {
     return answers[testId];
