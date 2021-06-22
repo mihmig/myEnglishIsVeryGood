@@ -278,6 +278,7 @@ function init() {
     }
 }
 function goHome() {
+    pauseAudio();
     hideAll();
     document.getElementById('homeScreen').style.display = 'block';
 }
@@ -312,6 +313,7 @@ function loadAndStartTest(testId) {
 }
 
 function check(testId) {
+    pauseAudio();
     var correctAnswersCount = 0;
     var answers = getAnswers(testId);
     var questionsCount = 0;
@@ -348,4 +350,11 @@ function hideMe(element) {
     if(element) {
         element.style.visibility = "hidden";
     }
+}
+
+function pauseAudio() {
+    var audios = document.getElementsByTagName('audio');
+    Array.prototype.forEach.call(audios, function (el) {
+        el.pause();
+    });
 }

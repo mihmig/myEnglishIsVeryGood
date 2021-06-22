@@ -9,6 +9,10 @@ body,html {
 #homeScreen {
 	padding-left:3vw;
 }
+
+button {
+	width: 22%;
+}
 .qbox {
 	padding: 1vw;
 	display: none;
@@ -33,7 +37,9 @@ li {
 	justify-content: center;
 	overflow: auto;
 	visibility: hidden;
+	z-index: 100;
 }
+
 .centered {
 	display: flex;
 	flex-direction: column;
