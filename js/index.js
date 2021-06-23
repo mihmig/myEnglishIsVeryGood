@@ -37,13 +37,6 @@ var answers = {
         'm1vAtDq04': 'didnt meet',
         'm1vAtDq05': 'was listening'
     },
-    'm1vAtE': {
-        'm1vAtEq01': 'the most sociable',
-        'm1vAtEq02': 'more sensitive',
-        'm1vAtEq03': 'the most patient',
-        'm1vAtEq04': 'the least',
-        'm1vAtEq05': 'older'
-    },
     'm1vAtF': {
         'm1vAtFq01': '5',
         'm1vAtFq02': '3',
@@ -292,8 +285,40 @@ var answers = {
         'm3vAtDq03': 'had you been waiting',
         'm3vAtDq04': 'did James graduate',
         'm3vAtDq05': 'didnt win',
+    },
+    'm3vAtE': {
+        'm3vAtEq01': '1',
+        'm3vAtEq02': '2',
+        'm3vAtEq03': '2',
+        'm3vAtEq04': '2',
+        'm3vAtEq05': '1',
+        'm3vAtEq06': '2',
+        'm3vAtEq07': '1',
+        'm3vAtEq08': '2',
+        'm3vAtEq09': '2'
+    },
+    'm3vAtF': {
+        'm3vAtFq01': '3',
+        'm3vAtFq02': '5',
+        'm3vAtFq03': '4',
+        'm3vAtFq04': '1',
+        'm3vAtFq05': '2'
     }
-
+    ,
+    'm3vAtG': {
+        'm3vAtGq01': '1',
+        'm3vAtGq02': '2',
+        'm3vAtGq03': '4',
+        'm3vAtGq04': '2',
+        'm3vAtGq05': '4'
+    },
+    'm3vAtH': {
+        'm3vAtHq01': '3',
+        'm3vAtHq02': '2',
+        'm3vAtHq03': '1',
+        'm3vAtHq04': '4',
+        'm3vAtHq05': '5'
+    }
 }
 var currentTest = "";
 function getAnswers(testId) {
