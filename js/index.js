@@ -384,6 +384,73 @@ var answers = {
         'm8vAtHq03': '2',
         'm8vAtHq04': '6',
         'm8vAtHq05': '5',
+    },
+
+    'm8vBtA': {
+        'm8vBtAq01': '2',
+        'm8vBtAq02': '2',
+        'm8vBtAq03': '2',
+        'm8vBtAq04': '2',
+        'm8vBtAq05': '2',
+    },
+    'm8vBtB': {
+        'm8vBtBq01': '3',
+        'm8vBtBq02': '5',
+        'm8vBtBq03': '6',
+        'm8vBtBq04': '4',
+        'm8vBtBq05': '9',
+        'm8vBtBq06': '8',
+        'm8vBtBq07': '13',
+        'm8vBtBq08': '12',
+        'm8vBtBq09': '1',
+        'm8vBtBq10': '2'
+    },
+    'm8vBtC': {
+        'm8vBtCq01': '2',
+        'm8vBtCq02': '1',
+        'm8vBtCq03': '2',
+        'm8vBtCq04': '2'
+    },
+    'm8vBtD': {
+        'm8vBtDq01': 'unless',
+        'm8vBtDq02': 'if',
+        'm8vBtDq03': 'unless',
+        'm8vBtDq04': 'if',
+        'm8vBtDq05': 'unless',
+    },
+    'm8vBtE': {
+        'm8vBtEq01': 'will win',
+        'm8vBtEq02': 'had played',
+        'm8vBtEq03': 'floats',
+        'm8vBtEq04': 'apologise ',
+        'm8vBtEq05': 'dont come',
+        'm8vBtEq06': 'heat',
+        'm8vBtEq07': 'would go',
+        'm8vBtEq08': 'hadnt hurt',
+        'm8vBtEq09': 'would have come',
+        'm8vBtEq10': 'didnt have',
+    },
+    'm8vBtF': {
+        'm8vBtFq01': '1',
+        'm8vBtFq02': '5',
+        'm8vBtFq03': '4',
+        'm8vBtFq04': '3',
+        'm8vBtFq05': '2',
+    },
+    'm8vBtG': {
+        'm8vBtGq01': 'B',
+        'm8vBtGq02': 'C',
+        'm8vBtGq03': 'A',
+        'm8vBtGq04': 'A',
+        'm8vBtGq05': 'D',
+        'm8vBtGq06': 'A',
+    },
+    'm8vAtH': {
+        'm8vBtHq01': '6',
+        'm8vBtHq02': '5',
+        'm8vBtHq03': '4',
+        'm8vBtHq04': '3',
+        'm8vBtHq05': '1',
     }
 }
 var currentTest = "";

@@ -4,14 +4,14 @@ body,html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	/*overflow: hidden;*/
 }
 #homeScreen {
 	padding:3vw;
 }
 
 button {
-	width: 22%;
+	width: 24%;
+	max-width: 7em;
 }
 .qbox {
 	padding: 1vw;
