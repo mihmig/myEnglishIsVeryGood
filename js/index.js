@@ -318,6 +318,72 @@ var answers = {
         'm3vAtHq03': '1',
         'm3vAtHq04': '4',
         'm3vAtHq05': '5'
+    },
+    'm8vAtA': {
+        'm8vAtAq01': '2',
+        'm8vAtAq02': '2',
+        'm8vAtAq03': '1',
+        'm8vAtAq04': '2',
+        'm8vAtAq05': '1',
+    },
+    'm8vAtB': {
+        'm8vAtBq01': '4',
+        'm8vAtBq02': '12',
+        'm8vAtBq03': '9',
+        'm8vAtBq04': '6',
+        'm8vAtBq05': '10',
+        'm8vAtBq06': '8',
+        'm8vAtBq07': '3',
+        'm8vAtBq08': '11',
+        'm8vAtBq09': '1',
+        'm8vAtBq10': '5'
+    },
+    'm8vAtC': {
+        'm8vAtCq01': '2',
+        'm8vAtCq02': '2',
+        'm8vAtCq03': '1',
+        'm8vAtCq04': '1'
+    },
+    'm8vAtD': {
+        'm8vAtDq01': 'if',
+        'm8vAtDq02': 'unless',
+        'm8vAtDq03': 'unless',
+        'm8vAtDq04': 'if',
+        'm8vAtDq05': 'unless',
+    },
+    'm8vAtE': {
+        'm8vAtEq01': 'wouldnt have told',
+        'm8vAtEq02': 'would stop',
+        'm8vAtEq03': 'becomes',
+        'm8vAtEq04': 'will win',
+        'm8vAtEq05': 'earned',
+        'm8vAtEq06': 'boils',
+        'm8vAtEq07': 'would have gone',
+        'm8vAtEq08': 'wont come',
+        'm8vAtEq09': 'would take',
+        'm8vAtEq10': 'dont water',
+    },
+    'm8vAtF': {
+        'm8vAtFq01': '3',
+        'm8vAtFq02': '4',
+        'm8vAtFq03': '2',
+        'm8vAtFq04': '1',
+        'm8vAtFq05': '5',
+    },
+    'm8vAtG': {
+        'm8vAtGq01': 'A',
+        'm8vAtGq02': 'B',
+        'm8vAtGq03': 'C',
+        'm8vAtGq04': 'C',
+        'm8vAtGq05': 'D',
+        'm8vAtGq06': 'C',
+    },
+    'm8vAtH': {
+        'm8vAtHq01': '3',
+        'm8vAtHq02': '1',
+        'm8vAtHq03': '2',
+        'm8vAtHq04': '6',
+        'm8vAtHq05': '5',
     }
 }
 var currentTest = "";
