@@ -403,7 +403,7 @@ function check() {
     if (correctAnswersCount === questionsCount) {
         document.getElementById("completedTestId").innerText = currentTest;
         document.getElementById("testPassedMessage").style.visibility="visible";
-        document.getElementById(testId+"button").style.backgroundColor = "lightgreen";
+        document.getElementById(currentTest+"button").style.backgroundColor = "lightgreen";
         setCookie(currentTest, "pаssеd");
     } else {
         document.getElementById("failedTestResult").innerText = "Test " + currentTest + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
