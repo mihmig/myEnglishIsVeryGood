@@ -25,7 +25,13 @@ button {
 li {
 	margin: 1vw;
 }
+select {
+	max-width: 80%;
+}
 
+.testLetter {
+	color: blue;
+}
 .messageBoundingBox {
 	width: 100%;
 	height: 100%;
@@ -53,7 +59,8 @@ li {
 	background-color: lightpink;
 }
 
-.testBottomButtons {
+#testBottomButtons {
+	display: none;
 	margin: auto;
 	text-align: center;
 }

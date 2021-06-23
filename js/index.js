@@ -295,12 +295,13 @@ var answers = {
     }
 
 }
+var currentTest = "";
 function getAnswers(testId) {
     return answers[testId];
 }
 
 function init() {
-    for (testId in answers) {
+    for (let testId in answers) {
         let status = getCookie(testId);
         let button = document.getElementById(testId+"button");
         if (!button) continue;
@@ -320,46 +321,54 @@ function goHome() {
     pauseAudio();
     hideAll();
     document.getElementById('homeScreen').style.display = 'block';
+
 }
 function hideAll() {
     var els = document.getElementsByClassName('screen');
     Array.prototype.forEach.call(els, function(el) {
         el.style.display = 'none';
     });
+    document.getElementById('testBottomButtons').style.display = 'none';
 }
 function test(testId) {
+    currentTest = testId;
+    if (!answers[currentTest]) return;
+
     hideAll();
-    if (document.getElementById(testId)) {
-        document.getElementById(testId).style.display = 'block';
+    if (document.getElementById(currentTest)) {
+        document.getElementById(currentTest).style.display = 'block';
 
         var els = document.getElementsByTagName('select');
         Array.prototype.forEach.call(els, function (el) {
             el.style.backgroundColor = '';
         });
+        document.getElementById('testBottomButtons').style.display = 'block';
     } else {
-        loadAndStartTest(testId);
+        loadAndStartTest(currentTest);
     }
 }
 function loadAndStartTest(testId) {
-    fetch('tests/'+testId+'.html')
+    fetch('tests/'+testId+'.html?'+ Math.random())
         .then(resp => resp.text())
         .then(text => {
             let testDiv = document.createElement('div');
             testDiv.innerHTML = text;
-            document.body.append(testDiv.firstChild);
+            // document.body.append(testDiv.firstChild);
+            document.body.insertBefore(testDiv.firstChild, document.getElementById('testBottomButtons'));
             test(testId);
         });
 }
 
-function check(testId) {
+function check() {
     pauseAudio();
     var correctAnswersCount = 0;
-    var answers = getAnswers(testId);
+    var answers = getAnswers(currentTest);
     var questionsCount = 0;
     for (var key in answers) {
         questionsCount++;
         if (normalizeText(document.getElementById(key).value) === answers[key]) {
-                correctAnswersCount++;
+            correctAnswersCount++;
+            document.getElementById(key).style.backgroundColor = 'lightgreen';
         } else {
             document.getElementById(key).style.backgroundColor = 'lightpink';
         }
@@ -367,17 +376,15 @@ function check(testId) {
 
 
     if (correctAnswersCount === questionsCount) {
-        // alert("Congratulations! All right!");
-        document.getElementById("completedTestId").innerText = testId;
+        document.getElementById("completedTestId").innerText = currentTest;
         document.getElementById("testPassedMessage").style.visibility="visible";
         document.getElementById(testId+"button").style.backgroundColor = "lightgreen";
-        setCookie(testId, "pаssеd");
+        setCookie(currentTest, "pаssеd");
     } else {
-        // alert("Test failed. Right answers " + correctAnswersCount + "/" + questionsCount);
-        document.getElementById("failedTestResult").innerText = "Test " + testId + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
+        document.getElementById("failedTestResult").innerText = "Test " + currentTest + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
         document.getElementById("testFailedMessage").style.visibility="visible";
-        document.getElementById(testId+"button").style.backgroundColor = "lightpink";
-        setCookie(testId, "failed");
+        document.getElementById(currentTest+"button").style.backgroundColor = "lightpink";
+        setCookie(currentTest, "failed");
     }
 }
 
