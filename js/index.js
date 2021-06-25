@@ -303,8 +303,7 @@ var answers = {
         'm3vAtFq03': '4',
         'm3vAtFq04': '1',
         'm3vAtFq05': '2'
-    }
-    ,
+    },
     'm3vAtG': {
         'm3vAtGq01': '1',
         'm3vAtGq02': '2',
@@ -318,6 +317,73 @@ var answers = {
         'm3vAtHq03': '1',
         'm3vAtHq04': '4',
         'm3vAtHq05': '5'
+    },
+    'm3vBtA' : {
+        'm3vBtAq01': '2',
+        'm3vBtAq02': '1',
+        'm3vBtAq03': '1',
+        'm3vBtAq04': '2',
+        'm3vBtAq05': '1',
+        'm3vBtAq06': '2',
+        'm3vBtAq07': '2',
+        'm3vBtAq08': '1'
+    },
+    'm3vBtB' : {
+        'm3vBtBq01': '2',
+        'm3vBtBq02': '1',
+        'm3vBtBq03': '4',
+        'm3vBtBq04': '6',
+        'm3vBtBq05': '8',
+        'm3vBtBq06': '5',
+        'm3vBtBq07': '9',
+        'm3vBtBq08': '7',
+        'm3vBtBq09': '12'
+    },
+    'm3vBtC' : {
+        'm3vBtCq01': 'had he finished',
+        'm3vBtCq02': 'had you been studying',
+        'm3vBtCq03': 'had been living',
+        'm3vBtCq04': 'hadnt finished',
+        'm3vBtCq05': 'had gone',
+    },
+    'm3vBtD' : {
+        'm3vBtDq01': 'did the children see',
+        'm3vBtDq02': 'had been trying',
+        'm3vBtDq03': 'had read',
+        'm3vBtDq04': 'didnt come',
+        'm3vBtDq05': 'performed',
+    },
+    'm3vBtE': {
+        'm3vBtEq01': '1',
+        'm3vBtEq02': '2',
+        'm3vBtEq03': '2',
+        'm3vBtEq04': '2',
+        'm3vBtEq05': '1',
+        'm3vBtEq06': '2',
+        'm3vBtEq07': '1',
+        'm3vBtEq08': '2',
+        'm3vBtEq09': '2'
+    },
+    'm3vBtF': {
+        'm3vBtFq01': '5',
+        'm3vBtFq02': '3',
+        'm3vBtFq03': '1',
+        'm3vBtFq04': '4',
+        'm3vBtFq05': '2'
+    },
+    'm3vBtG': {
+        'm3vBtGq01': '1',
+        'm3vBtGq02': '2',
+        'm3vBtGq03': '4',
+        'm3vBtGq04': '2',
+        'm3vBtGq05': '4'
+    },
+    'm3vBtH': {
+        'm3vBtHq01': '3',
+        'm3vBtHq02': '2',
+        'm3vBtHq03': '1',
+        'm3vBtHq04': '4',
+        'm3vBtHq05': '5'
     },
     'm8vAtA': {
         'm8vAtAq01': '2',
