@@ -214,23 +214,23 @@ var answers = {
         'm2vBtCq05': 'havent bought',
     },
     'm2vBtD': {
-        'm2vAtDq01': '1',
-        'm2vAtDq02': '1',
-        'm2vAtDq03': '1',
-        'm2vAtDq04': '2',
-        'm2vAtDq05': '1',
-        'm2vAtDq06': '2',
-        'm2vAtDq07': '1',
-        'm2vAtDq08': '2',
-        'm2vAtDq09': '2',
-        'm2vAtDq10': '1'
+        'm2vBtDq01': '1',
+        'm2vBtDq02': '1',
+        'm2vBtDq03': '1',
+        'm2vBtDq04': '2',
+        'm2vBtDq05': '1',
+        'm2vBtDq06': '2',
+        'm2vBtDq07': '1',
+        'm2vBtDq08': '2',
+        'm2vBtDq09': '2',
+        'm2vBtDq10': '1'
     },
     'm2vBtE': {
-        'm2vAtEq01': '2',
-        'm2vAtEq02': '1',
-        'm2vAtEq03': '5',
-        'm2vAtEq04': '3',
-        'm2vAtEq05': '4'
+        'm2vBtEq01': '2',
+        'm2vBtEq02': '1',
+        'm2vBtEq03': '5',
+        'm2vBtEq04': '3',
+        'm2vBtEq05': '4'
     },
     'm2vBtF': {
         'm2vBtFq01': '2',
