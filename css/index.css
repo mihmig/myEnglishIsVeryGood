@@ -90,3 +90,8 @@ select {
 	justify-content: center;
 	align-content: center;
 }
+
+input.phrase {
+	width: 95%;
+	max-width: 25em;
+}
