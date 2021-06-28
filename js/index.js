@@ -385,6 +385,71 @@ var answers = {
         'm3vBtHq04': '4',
         'm3vBtHq05': '5'
     },
+    'm7vAtA': {
+        'm7vAtAq01': '2',
+        'm7vAtAq02': '1',
+        'm7vAtAq03': '1',
+        'm7vAtAq04': '2',
+        'm7vAtAq05': '1',
+        'm7vAtAq06': '2',
+        'm7vAtAq07': '2',
+        'm7vAtAq08': '1',
+    },
+    'm7vAtB': {
+        'm7vAtBq01': '2',
+        'm7vAtBq02': '6',
+        'm7vAtBq03': '10',
+        'm7vAtBq04': '11',
+        'm7vAtBq05': '8',
+        'm7vAtBq06': '12',
+        'm7vAtBq07': '4',
+        'm7vAtBq08': '9',
+        'm7vAtBq09': '7',
+        'm7vAtBq10': '5'
+    },
+    'm7vAtC': {
+        'm7vAtCq01': '2',
+        'm7vAtCq02': '1',
+        'm7vAtCq03': '2',
+        'm7vAtCq04': '1',
+        'm7vAtCq05': '2'
+    },
+    'm7vAtD': {
+        'm7vAtDq01': 'on',
+        'm7vAtDq02': 'from',
+        'm7vAtDq03': 'for',
+        'm7vAtDq04': 'about',
+        'm7vAtDq05': 'to',
+    },
+    'm7vAtE': {
+        'm7vAtEq01': 'B',
+        'm7vAtEq02': 'C',
+        'm7vAtEq03': 'A',
+        'm7vAtEq04': 'E',
+        'm7vAtEq05': 'D'
+    },
+    'm7vAtF': {
+        'm7vAtFq01': 'B',
+        'm7vAtFq02': 'A',
+        'm7vAtFq03': 'A',
+        'm7vAtFq04': 'B',
+        'm7vAtFq05': 'B',
+    },
+    'm7vAtG': {
+        'm7vAtGq01': 'B',
+        'm7vAtGq02': 'C',
+        'm7vAtGq03': 'C',
+        'm7vAtGq04': 'B',
+        'm7vAtGq05': 'A',
+        'm7vAtGq06': 'B',
+    },
+    'm7vAtH': {
+        'm7vAtHq01': 'B',
+        'm7vAtHq02': 'A',
+        'm7vAtHq03': 'F',
+        'm7vAtHq04': 'C',
+        'm7vAtHq05': 'E',
+    },
     'm8vAtA': {
         'm8vAtAq01': '2',
         'm8vAtAq02': '2',
@@ -451,7 +516,6 @@ var answers = {
         'm8vAtHq04': '6',
         'm8vAtHq05': '5',
     },
-
     'm8vBtA': {
         'm8vBtAq01': '2',
         'm8vBtAq02': '2',
