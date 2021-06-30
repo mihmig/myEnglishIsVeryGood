@@ -893,12 +893,12 @@ function check() {
         document.getElementById("completedTestId").innerText = currentTest;
         document.getElementById("testPassedMessage").style.visibility="visible";
         document.getElementById(currentTest+"button").style.backgroundColor = "lightgreen";
-        setCookie(currentTest, "pаssеd");
+        setCookie(currentTest, "pаssеd", "Tue, 19 Jan 2038 03:14:07 GMT");
     } else {
         document.getElementById("failedTestResult").innerText = "Test " + currentTest + " failed. (" + correctAnswersCount + "/" + questionsCount + ")";
         document.getElementById("testFailedMessage").style.visibility="visible";
         document.getElementById(currentTest+"button").style.backgroundColor = "lightpink";
-        setCookie(currentTest, "failed");
+        setCookie(currentTest, "failed", "Tue, 19 Jan 2038 03:14:07 GMT");
     }
 }
 
