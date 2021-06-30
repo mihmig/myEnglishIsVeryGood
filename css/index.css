@@ -16,11 +16,17 @@ button {
 .qbox {
 	padding: 1vw;
 	display: none;
+	margin: auto;
+	width: 99%;
+	max-width: 50em;
 }
 
 #testSelector {
 	padding: 1vw;
 	color: darkslategray;
+}
+ol {
+	padding-left: 1em;
 }
 li {
 	margin: 1vw;
@@ -63,6 +69,8 @@ select {
 	display: none;
 	margin: auto;
 	text-align: center;
+	width: 99%;
+	max-width: 50em;
 }
 
 .mainTitle {
