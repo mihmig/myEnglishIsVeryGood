@@ -103,3 +103,14 @@ input.phrase {
 	width: 95%;
 	max-width: 25em;
 }
+.selectable {
+	border: 1px solid lightgray;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 2px;
+	cursor: grab;
+	user-select: none;
+}
+.selectableSelected {
+	border: 2px solid green;
+}

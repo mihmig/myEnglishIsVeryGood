@@ -385,6 +385,166 @@ var answers = {
         'm3vBtHq04': '4',
         'm3vBtHq05': '5'
     },
+    'm4vAtA' : {
+        'm4vAtAq01': 'plain',
+        'm4vAtAq02': 'scruffy',
+        'm4vAtAq03': 'thick',
+        'm4vAtAq04': 'polka-dot'
+    },
+    'm4vAtB' : {
+        'm4vAtBq01': '9',
+        'm4vAtBq02': '1',
+        'm4vAtBq03': '6',
+        'm4vAtBq04': '4',
+        'm4vAtBq05': '2',
+        'm4vAtBq06': '8'
+    },
+    'm4vAtC' : {
+        'm4vAtCq01': '2',
+        'm4vAtCq02': '1',
+        'm4vAtCq03': '1',
+        'm4vAtCq04': '2',
+        'm4vAtCq05': '2',
+        'm4vAtCq06': '1',
+        'm4vAtCq07': '2',
+        'm4vAtCq08': '1'
+    },
+    'm4vAtD': {
+        'm4vAtDq01': '2',
+        'm4vAtDq02': '1',
+        'm4vAtDq03': '1',
+        'm4vAtDq04': '2',
+        'm4vAtDq05': '1'
+    },
+    'm4vAtE': {
+        'm4vAtEq01': 'the costumes for cats were designed by john napier.',
+        'm4vAtEq02': 'pets cannot be taken into the theatre.',
+        'm4vAtEq03': 'the new harry potter book will be published by the company next month.',
+        'm4vAtEq04': 'the book has been translated into 25 languages.',
+        'm4vAtEq05': 'the food is being prepared.'
+    },
+    'm4vAtF': {
+        'm4vAtFq01': '4',
+        'm4vAtFq02': '2',
+        'm4vAtFq03': '5',
+        'm4vAtFq04': '1',
+        'm4vAtFq05': '3'
+    },
+    'm4vAtG': {
+        'm4vAtGq01': '3',
+        'm4vAtGq02': '4',
+        'm4vAtGq03': '1',
+        'm4vAtGq04': '5',
+        'm4vAtGq05': '2'
+    },
+    'm4vAtH': {
+        'm4vAtHq01': '3',
+        'm4vAtHq02': '2',
+        'm4vAtHq03': '1',
+        'm4vAtHq04': '1',
+        'm4vAtHq05': '3'
+    },
+    'm4vBtA' : {
+        'm4vBtAq01': 'plain',
+        'm4vBtAq02': 'linen',
+        'm4vBtAq03': 'velvet',
+        'm4vBtAq04': 'striped'
+    },
+    'm4vBtB' : {
+        'm4vBtBq01': '6',
+        'm4vBtBq02': '1',
+        'm4vBtBq03': '8',
+        'm4vBtBq04': '4',
+        'm4vBtBq05': '9',
+        'm4vBtBq06': '7'
+    },
+    'm4vBtC' : {
+        'm4vBtCq01': '2',
+        'm4vBtCq02': '1',
+        'm4vBtCq03': '2',
+        'm4vBtCq04': '2',
+        'm4vBtCq05': '1',
+        'm4vBtCq06': '1',
+        'm4vBtCq07': '2',
+        'm4vBtCq08': '1'
+    },
+    'm4vBtD': {
+        'm4vBtDq01': '1',
+        'm4vBtDq02': '2',
+        'm4vBtDq03': '1',
+        'm4vBtDq04': '2',
+        'm4vBtDq05': '1'
+    },
+    'm4vBtE': {
+        'm4vBtEq01': 'the opera house will be opened next week.',
+        'm4vBtEq02': 'this fax should be sent right now.',
+        'm4vBtEq03': 'the meal had been cooked before the lights went off.',
+        'm4vBtEq04': 'many famous operas were composed by puccini.',
+        'm4vBtEq05': 'a new bridge is being built.'
+    },
+    'm4vBtF': {
+        'm4vBtFq01': '4',
+        'm4vBtFq02': '5',
+        'm4vBtFq03': '2',
+        'm4vBtFq04': '3',
+        'm4vBtFq05': '1'
+    },
+    'm4vBtG': {
+        'm4vBtGq01': '1',
+        'm4vBtGq02': '3',
+        'm4vBtGq03': '4',
+        'm4vBtGq04': '6',
+        'm4vBtGq05': '5'
+    },
+    'm4vBtH': {
+        'm4vBtHq01': '2',
+        'm4vBtHq02': '1',
+        'm4vBtHq03': '1',
+        'm4vBtHq04': '3',
+        'm4vBtHq05': '1'
+    },
+    'm5vAtA': {
+        'm5vAtAq01': '1',
+        'm5vAtAq02': '3',
+        'm5vAtAq03': '1',
+        'm5vAtAq04': '1',
+        'm5vAtAq05': '2',
+        'm5vAtAq06': '3'
+    },
+    'm5vAtB' : {
+        'm5vAtBq01': '9',
+        'm5vAtBq02': '11',
+        'm5vAtBq03': '8',
+        'm5vAtBq04': '5',
+        'm5vAtBq05': '2',
+        'm5vAtBq06': '6',
+        'm5vAtBq07': '7',
+        'm5vAtBq08': '1'
+    },
+    'm5vAtC' : {
+        'm5vAtCq01': '1',
+        'm5vAtCq02': '1',
+        'm5vAtCq03': '2',
+        'm5vAtCq04': '2',
+        'm5vAtCq05': '1',
+        'm5vAtCq06': '1',
+        'm5vAtCq07': '1',
+        'm5vAtCq08': '2',
+        'm5vAtCq09': '2',
+        'm5vAtCq10': '2'
+    },
+    'm5vAtD' : {
+        'm5vAtDq01': 'living',
+        'm5vAtDq02': 'be',
+        'm5vAtDq03': 'driving',
+        'm5vAtDq04': 'buy'
+    },
+    'm5vAtE' : {
+        'm5vAtEq01': 'defence',
+        'm5vAtEq02': 'performances',
+        'm5vAtEq03': 'collection',
+        'm5vAtEq04': 'disturbance'
+    },
     'm7vAtA': {
         'm7vAtAq01': '2',
         'm7vAtAq02': '1',
@@ -719,11 +879,12 @@ function check() {
     var questionsCount = 0;
     for (var key in answers) {
         questionsCount++;
-        if (normalizeText(document.getElementById(key).value) === answers[key]) {
+        var field = document.getElementById(key);
+        if (normalizeText(field.value) === answers[key]) {
             correctAnswersCount++;
-            document.getElementById(key).style.backgroundColor = 'lightgreen';
+            field.style.backgroundColor = 'lightgreen';
         } else {
-            document.getElementById(key).style.backgroundColor = 'lightpink';
+            field.style.backgroundColor = 'lightpink';
         }
     }
 
@@ -756,4 +917,19 @@ function pauseAudio() {
     Array.prototype.forEach.call(audios, function (el) {
         el.pause();
     });
+}
+
+function selectOddWord(el) {
+    let els = el.parentNode.childNodes;
+    Array.prototype.forEach.call(els, function (child) {
+        if (child) {
+         if (child.nodeName == "SPAN") {
+             child.classList.remove('selectableSelected');
+         }
+            if (child.nodeName == "INPUT") {
+                child.value = el.innerText;
+            }
+        };
+    });
+    el.classList.add('selectableSelected');
 }
