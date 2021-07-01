@@ -964,6 +964,7 @@ function init() {
             }
         }
     }
+    window.addEventListener('popstate', onpopstate);
 }
 function selectCource(courceName) {
     location.href = courceName + ".html";
@@ -986,7 +987,13 @@ function test(testId) {
     if (!answers[currentTest]) return;
 
     hideAll();
+
     if (document.getElementById(currentTest)) {
+
+        var url = window.location.href.split('?')[0];
+        history.pushState({url: url}, "", url);
+        // window.location.hash = currentTest;
+
         document.getElementById(currentTest).style.display = 'block';
 
         var els = document.getElementsByTagName('select');
@@ -1004,7 +1011,6 @@ function loadAndStartTest(testId) {
         .then(text => {
             let testDiv = document.createElement('div');
             testDiv.innerHTML = text;
-            // document.body.append(testDiv.firstChild);
             document.body.insertBefore(testDiv.firstChild, document.getElementById('testBottomButtons'));
             test(testId);
         });
@@ -1093,3 +1099,7 @@ function selectOddWord(el) {
     el.classList.add('selectableSelected');
 }
 
+function onpopstate(event) {
+    //console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
+    goHome();
+}
