@@ -545,6 +545,144 @@ var answers = {
         'm5vAtEq03': 'collection',
         'm5vAtEq04': 'disturbance'
     },
+    'm6vAtA': {
+        'm6vAtAq01': 'drive',
+        'm6vAtAq02': 'sunstroke',
+        'm6vAtAq03': 'majestic',
+        'm6vAtAq04': 'boat',
+        'm6vAtAq05': 'native',
+        'm6vAtAq06': 'snaps',
+        'm6vAtAq07': 'give',
+        'm6vAtAq08': 'unspoilt',
+        'm6vAtAq09': 'varied',
+        'm6vAtAq10': 'catch'
+    },
+    'm6vAtB': {
+        'm6vAtBq01': 'arrive',
+        'm6vAtBq02': 'expedition',
+        'm6vAtBq03': 'fetch',
+        'm6vAtBq04': 'room',
+        'm6vAtBq05': 'voyage'
+    },
+    'm6vAtC': {
+        'm6vAtCq01': 'jill said that it was so chilly that evening.',
+        'm6vAtCq02': 'He said that he had visited spain the last/previous year.',
+        'm6vAtCq03': 'ben said that Tom had been late that morning.',
+        'm6vAtCq04': 'jane said that they would go to italy the following year.',
+        'm6vAtCq05': 'sue said that they were going away on holiday the following week.',
+        'm6vAtCq06': 'ann said that she hadnt talked to Jane recently.'
+    },
+    'm6vAtD': {
+        'm6vAtDq01': 'she told me to learn about local laws and customs.',
+        'm6vAtDq02': 'a tourist asked me how old the taj mahal was.',
+        'm6vAtDq03': 'he told me not to talk about religion or politics.',
+        'm6vAtDq04': 'he asked Ann if/whether she liked french food.',
+        'm6vAtDq05': 'he asked where the nearest bus stop was.',
+        'm6vAtDq06': 'ben asked Sam if/whether he had ever lived abroad.',
+    },
+    'm6vAtE': {
+        'm6vAtEq01': 'in',
+        'm6vAtEq02': 'for',
+        'm6vAtEq03': 'without',
+        'm6vAtEq04': 'in',
+        'm6vAtEq05': 'on',
+        'm6vAtEq05': 'aside',
+        'm6vAtEq05': 'off',
+        'm6vAtEq05': 'at',
+    },
+    'm6vAtF': {
+        'm6vAtFq01': 'a',
+        'm6vAtFq02': 'c',
+        'm6vAtFq03': 'e',
+        'm6vAtFq04': 'd',
+        'm6vAtFq05': 'b',
+    },
+    'm6vAtG': {
+        'm6vAtGq01': 'false',
+        'm6vAtGq02': 'true',
+        'm6vAtGq03': 'ds',
+        'm6vAtGq04': 'false',
+        'm6vAtGq05': 'false'
+    },
+    'm6vAtH': {
+        'm6vAtHq01': 'a',
+        'm6vAtHq02': 'c',
+        'm6vAtHq03': 'a',
+        'm6vAtHq04': 'b',
+        'm6vAtHq05': 'b',
+    },
+    'm6vBtA': {
+        'm6vBtAq01': 'booked',
+        'm6vBtAq02': 'boat',
+        'm6vBtAq03': 'snaps',
+        'm6vBtAq04': 'beneath',
+        'm6vBtAq05': 'cuisine',
+        'm6vBtAq06': 'varied',
+        'm6vBtAq07': 'catch',
+        'm6vBtAq08': 'sunstroke',
+        'm6vBtAq09': 'drive',
+        'm6vBtAq10': 'missed'
+    },
+    'm6vBtB': {
+        'm6vBtBq01': 'reached',
+        'm6vBtBq02': 'fetch',
+        'm6vBtBq03': 'tour',
+        'm6vBtBq04': 'place',
+        'm6vBtBq05': 'trip'
+    },
+    'm6vBtC': {
+        'm6vBtCq01': 'charlie said that they had won the final match.',
+        'm6vBtCq02': 'he said that it was so chilly that evening. ',
+        'm6vBtCq03': 'he said that he could speak german.',
+        'm6vBtCq04': [
+            'she told me that she would call me the following day.',
+            'she told me that she would call me the next day.'
+        ],
+        'm6vBtCq05': 'steve said that they were living in new york then.',
+        'm6vBtCq06': 'paul said that he hadnt heard from bob for quite some time.'
+    },
+    'm6vBtD': {
+        'm6vBtDq01': 'she told me not to carry large amounts of cash.',
+        'm6vBtDq02': 'david asked bill what moscow was like?',
+        'm6vBtDq03': [
+            'he asked me if i had ever been to the usa.',
+            'he asked me whether i had ever been to the usa.'
+        ],
+        'm6vBtDq04': 'rick asked me what i was doing.',
+        'm6vBtDq05': 'the travel agent told me to have a valid passport.',
+        'm6vBtDq06': 'he told me not to leave my luggage unattended.',
+    },
+    'm6vBtE': {
+        'm6vBtEq01': 'in',
+        'm6vBtEq02': 'without',
+        'm6vBtEq03': 'for',
+        'm6vBtEq04': 'off',
+        'm6vBtEq05': 'off',
+        'm6vBtEq05': 'at',
+        'm6vBtEq05': 'aside',
+        'm6vBtEq05': 'on',
+    },
+    'm6vBtF': {
+        'm6vBtFq01': 'b',
+        'm6vBtFq02': 'e',
+        'm6vBtFq03': 'd',
+        'm6vBtFq04': 'a',
+        'm6vBtFq05': 'c',
+    },
+    'm6vBtG': {
+        'm6vBtGq01': 'false',
+        'm6vBtGq02': 'false',
+        'm6vBtGq03': 'false',
+        'm6vBtGq04': 'true',
+        'm6vBtGq05': 'ds'
+    },
+    'm6vBtH': {
+        'm6vBtHq01': 'c',
+        'm6vBtHq02': 'b',
+        'm6vBtHq03': 'b',
+        'm6vBtHq04': 'c',
+        'm6vBtHq05': 'b',
+    },
     'm7vAtA': {
         'm7vAtAq01': '2',
         'm7vAtAq02': '1',
@@ -742,11 +880,11 @@ var answers = {
         'm8vAtHq05': '5',
     },
     'm8vBtA': {
-        'm8vAtAq01': '2',
-        'm8vAtAq02': '2',
-        'm8vAtAq03': '2',
-        'm8vAtAq04': '2',
-        'm8vAtAq05': '2',
+        'm8vBtAq01': 'take up',
+        'm8vBtAq02': 'course',
+        'm8vBtAq03': 'game',
+        'm8vBtAq04': 'open-minded',
+        'm8vBtAq05': 'pitch',
     },
     'm8vBtB': {
         'm8vBtBq01': '3',
@@ -879,15 +1017,13 @@ function check() {
     var questionsCount = 0;
     for (var key in answers) {
         questionsCount++;
-        var field = document.getElementById(key);
-        if (normalizeText(field.value) === answers[key]) {
+        if (checkField(key, answers[key])) {
             correctAnswersCount++;
-            field.style.backgroundColor = 'lightgreen';
+            markAnswerField(key, 'lightgreen')
         } else {
-            field.style.backgroundColor = 'lightpink';
+            markAnswerField(key, 'lightpink')
         }
     }
-
 
     if (correctAnswersCount === questionsCount) {
         document.getElementById("completedTestId").innerText = currentTest;
@@ -902,8 +1038,31 @@ function check() {
     }
 }
 
+function checkField(fieldId, rightAnswer) {
+    var field = document.getElementById(fieldId);
+    var userAnswer = normalizeText(field.value);
+    if (typeof rightAnswer == "string") {
+        if ( userAnswer == normalizeText(rightAnswer)) {
+            return true;
+        }
+        return false;
+    } else if (typeof rightAnswer == "object" && rightAnswer.length && rightAnswer.length > 0){
+        for (var i = 0;i<rightAnswer.length;i++) {
+            if (userAnswer == normalizeText(rightAnswer[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+    return false;
+}
+function markAnswerField(fieldId, color) {
+    var field = document.getElementById(fieldId);
+    field.style.backgroundColor = color;
+}
+
 function normalizeText(text) {
-    return text.trim().toLowerCase().replace("'",'');
+    return text.trim().toLowerCase().replace("['\" \.]",'');
 }
 
 function hideMe(element) {
