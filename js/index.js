@@ -683,6 +683,88 @@ var answers = {
         'm6vBtHq04': 'c',
         'm6vBtHq05': 'b',
     },
+    'm5vAtF' : {
+        'm5vAtFq01': '2',
+        'm5vAtFq02': '1',
+        'm5vAtFq03': '1',
+        'm5vAtFq04': '2'
+    },
+    'm5vAtG' : {
+        'm5vAtGq01': '1',
+        'm5vAtGq02': '2',
+        'm5vAtGq03': '2',
+        'm5vAtGq04': '2',
+        'm5vAtGq05': '1'
+    },
+    'm5vAtH' : {
+        'm5vAtHq01': '5',
+        'm5vAtHq02': '1',
+        'm5vAtHq03': '2',
+        'm5vAtHq04': '3',
+        'm5vAtHq05': '6'
+    },
+    'm5vBtA': {
+        'm5vBtAq01': '2',
+        'm5vBtAq02': '3',
+        'm5vBtAq03': '3',
+        'm5vBtAq04': '1',
+        'm5vBtAq05': '2',
+        'm5vBtAq06': '1'
+    },
+    'm5vBtB' : {
+        'm5vBtBq01': '6',
+        'm5vBtBq02': '2',
+        'm5vBtBq03': '9',
+        'm5vBtBq04': '4',
+        'm5vBtBq05': '7',
+        'm5vBtBq06': '5',
+        'm5vBtBq07': '8',
+        'm5vBtBq08': '3'
+    },
+    'm5vBtC' : {
+        'm5vBtCq01': '1',
+        'm5vBtCq02': '2',
+        'm5vBtCq03': '1',
+        'm5vBtCq04': '2',
+        'm5vBtCq05': '2',
+        'm5vBtCq06': '2',
+        'm5vBtCq07': '2',
+        'm5vBtCq08': '1',
+        'm5vBtCq09': '2',
+        'm5vBtCq10': '1'
+    },
+    'm5vBtD' : {
+        'm5vBtDq01': 'travel',
+        'm5vBtDq02': 'working',
+        'm5vBtDq03': 'staying',
+        'm5vBtDq04': 'attract'
+    },
+    'm5vBtE' : {
+        'm5vBtEq01': 'guidance',
+        'm5vBtEq02': 'protection',
+        'm5vBtEq03': 'invitation',
+        'm5vBtEq04': 'appearance'
+    },
+    'm5vBtF' : {
+        'm5vBtFq01': '1',
+        'm5vBtFq02': '2',
+        'm5vBtFq03': '2',
+        'm5vBtFq04': '1'
+    },
+    'm5vBtG' : {
+        'm5vBtGq01': '1',
+        'm5vBtGq02': '1',
+        'm5vBtGq03': '2',
+        'm5vBtGq04': '1',
+        'm5vBtGq05': '2'
+    },
+    'm5vBtH' : {
+        'm5vBtHq01': '4',
+        'm5vBtHq02': '3',
+        'm5vBtHq03': '5',
+        'm5vBtHq04': '1',
+        'm5vBtHq05': '2'
+    },
     'm7vAtA': {
         'm7vAtAq01': '2',
         'm7vAtAq02': '1',
