@@ -1092,3 +1092,4 @@ function selectOddWord(el) {
     });
     el.classList.add('selectableSelected');
 }
+
