@@ -887,22 +887,22 @@ var answers = {
         'm8vBtAq05': 'pitch',
     },
     'm8vBtB': {
-        'm8vBtBq01': '3',
-        'm8vBtBq02': '5',
-        'm8vBtBq03': '6',
-        'm8vBtBq04': '4',
-        'm8vBtBq05': '9',
-        'm8vBtBq06': '8',
-        'm8vBtBq07': '13',
-        'm8vBtBq08': '12',
-        'm8vBtBq09': '1',
-        'm8vBtBq10': '2'
+        'm8vBtBq01': 'knock',
+        'm8vBtBq02': 'entrants',
+        'm8vBtBq03': 'opposing',
+        'm8vBtBq04': 'worked out',
+        'm8vBtBq05': 'originated',
+        'm8vBtBq06': 'addicted',
+        'm8vBtBq07': 'bounce',
+        'm8vBtBq08': 'snorkel',
+        'm8vBtBq09': 'scored',
+        'm8vBtBq10': 'rope'
     },
     'm8vBtC': {
-        'm8vBtCq01': '2',
-        'm8vBtCq02': '1',
-        'm8vBtCq03': '2',
-        'm8vBtCq04': '2'
+        'm8vBtCq01': 'in',
+        'm8vBtCq02': 'for',
+        'm8vBtCq03': 'in',
+        'm8vBtCq04': 'in'
     },
     'm8vBtD': {
         'm8vBtDq01': 'unless',
