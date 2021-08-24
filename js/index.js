@@ -37,6 +37,13 @@ var answers = {
         'm1vAtDq04': 'didnt meet',
         'm1vAtDq05': 'was listening'
     },
+    'm1vAtE': {
+        'm1vAtEq01': 'the most sociable',
+        'm1vAtEq02': 'more sensitive',
+        'm1vAtEq03': 'the most patient',
+        'm1vAtEq04': 'the least',
+        'm1vAtEq05': 'older'
+    },
     'm1vAtF': {
         'm1vAtFq01': '5',
         'm1vAtFq02': '3',
