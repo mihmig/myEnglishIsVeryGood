@@ -816,11 +816,11 @@ var answers = {
         'm7vAtEq05': 'd'
     },
     'm7vAtF': {
-        'm7vAtFq01': 'b',
-        'm7vAtFq02': 'a',
-        'm7vAtFq03': 'a',
-        'm7vAtFq04': 'b',
-        'm7vAtFq05': 'b',
+        'm7vAtFq01': '2',
+        'm7vAtFq02': '1',
+        'm7vAtFq03': '1',
+        'm7vAtFq04': '2',
+        'm7vAtFq05': '2',
     },
     'm7vAtG': {
         'm7vAtGq01': 'b',
