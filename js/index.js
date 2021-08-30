@@ -849,7 +849,7 @@ var answers = {
     },
     'm7vBtB': {
         'm7vBtBq01': 'generation',
-        'm7vBtBq02': 'headline',
+        'm7vBtBq02': 'headlines',
         'm7vBtBq03': 'forecast',
         'm7vBtBq04': 'test',
         'm7vBtBq05': 'impact',
@@ -857,7 +857,7 @@ var answers = {
         'm7vBtBq07': 'deal',
         'm7vBtBq08': 'fixed',
         'm7vBtBq09': 'gadgets',
-        'm7vBtBq10': 'deal extension'
+        'm7vBtBq10': 'extension'
     },
     'm7vBtC': {
         'm7vBtCq01': '1',
